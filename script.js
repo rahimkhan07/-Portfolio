@@ -2,24 +2,11 @@ document.getElementById('navbarToggle').addEventListener('click', function() {
     document.getElementById('navbarMenu').classList.toggle('active');
   });
 
-  // =====================Navbar end
 
 
 
 
-  //Protfolio start=====================
-
-
-  // var header = document.getElementById("buttons");
-  // var btns = header.getElementsByClassName("btnn");
-  // for (var i = 0; i < btns.length; i++){
-  //   btns[i].addEventListener("click", function() {
-  //   var current = document.getElementsByClassName("active");
-  //   current[0].className = current[0].className.replace(" active", "");
-  //   this.className += " active";
-  //   });
-  // }
-  //portfolio btns =========================
+  //service section start =========================
 
   document.addEventListener('DOMContentLoaded', (event) => {
     var modal = document.getElementById("modal");
@@ -40,8 +27,6 @@ document.getElementById('navbarToggle').addEventListener('click', function() {
       }
     }
   });
-
-
 
 
   document.addEventListener('DOMContentLoaded', (event) => {
@@ -86,7 +71,26 @@ document.getElementById('navbarToggle').addEventListener('click', function() {
     }
   });
   
-
+// service secton end===========================
   
 
+// back to top btn start===============
 
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+// back to top btn end=================
