@@ -599,7 +599,7 @@ body{
 }
 
 .portfolio-box{
-  height: 35vh;
+  height: 32vh;
 }
 
 .portfolio-box img{
@@ -653,6 +653,8 @@ body{
   height: 5rem;
   background: var(--text-color);
   border-radius: 50%;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .portfolio-layer a i{
@@ -660,7 +662,7 @@ body{
   color: var(--snd-bg-color);
   margin-top: -20px;
   color: #000;
-  font-weight: bold;
+  
 }
 
 .vap button{
