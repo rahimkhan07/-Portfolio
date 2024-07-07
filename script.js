@@ -94,3 +94,14 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 // back to top btn end=================
+
+
+
+// dark mode start===========
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+// dark mode end=============
