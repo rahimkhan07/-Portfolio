@@ -62,7 +62,7 @@ body{
     transition: all 0.3s;
   }
   
-  @media (max-width: 768px) {
+  @media only screen and (max-width:500px) {
     .navbar{
       display: none;
     }
@@ -137,7 +137,7 @@ body{
 
   .social-icon a{
     padding: 12px;
-    font-size: 4vh;
+    font-size: 3vh;
   }
   .social-icon .fab:hover{
     color: #0063b2ff;
@@ -151,7 +151,7 @@ body{
     float: right;
     background-size: cover;
     background-position: center center;
-    margin-top: -65vh;
+    margin-top: -55vh;
     margin-right: 10vh;
     animation: animate 5s ease-in-out infinite;
     /* transition: all 1s ease-in-out; */
@@ -166,7 +166,7 @@ body{
     }
   }
 
-  @media only screen and (max-width:768px) {
+  @media only screen and (max-width:500px) {
       .heroRight{
         height: 34vh;
         width: 33vh;
@@ -258,13 +258,19 @@ body{
   width: 34vh;
 }
 
+@media only screen and (max-width:500px){
+  .about-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 
 /* Skills section start */
 
 .skills {
   text-align: center;
-  padding: 20px;
+  padding: -10px;
   border-radius: 10px;
   max-width: 800px;
   margin: auto;
@@ -329,15 +335,18 @@ body{
   text-align: center;
   line-height: 10px;
   font-size: 20px;
+  padding: -20vh;
 }
 
 .skill:hover{
   width: 210px;
 }
 
-@media (max-width: 768px){
+@media only screen and (max-width:500px){
   .flex-container{
     margin-left: -46px;
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 
@@ -499,7 +508,7 @@ body{
   cursor: pointer;
 }
 
-@media (max-width: 768px){
+@media only screen and (max-width:500px){
   .modal-content{
     height: 36vh;
   }
@@ -513,7 +522,7 @@ body{
 
 
 
-@media (max-width: 768px){
+@media only screen and (max-width:500px){
   .boxing {
     flex: 1 1 1 calc(50% - 20px);
   }
@@ -683,9 +692,21 @@ body{
 }
 
 
-@media (max-width: 768px){
+@media only screen and (max-width:500px){
   .portfolio{
     margin-top: 35vh;
+  }
+
+  .portfolio-container{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+
+  
+  .portfolio-box{
+    width: 40vh;
+    display: flex;
   }
 
   .portfolio-layer p{
@@ -834,7 +855,7 @@ footer h1{
 }
 
 .social-icons .fa-brands{
-  color: #000;
+  color: #000000;
   padding: 2vh;
   cursor: pointer;
 }
@@ -872,7 +893,7 @@ footer h1{
   display: none; 
   position: fixed; 
   bottom: 20px; 
-  right: 30px; 
+  right: 200px; 
   z-index: 99; 
   border: none; 
   outline: none; 
@@ -887,6 +908,12 @@ footer h1{
 #myBtn:hover {
   background-color: #76a4b8; 
 }
+
+@media only screen and (max-width:500px){
+  .back-to-top{
+    margin-left: 0vh;
+  }
+}
 /* back to top btn end */
 
 
@@ -894,3 +921,6 @@ footer h1{
   background-color: #9CC3D5FF;
   color: black;
 }
+
+
+
