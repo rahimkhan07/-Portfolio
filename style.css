@@ -62,7 +62,7 @@ body{
     transition: all 0.3s;
   }
   
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:376px) {
     .navbar{
       display: none;
     }
@@ -166,7 +166,7 @@ body{
     }
   }
 
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:376px) {
       .heroRight{
         height: 37vh;
         width: 43vh;
@@ -258,7 +258,7 @@ body{
   width: 34vh;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:376px){
   .about-container{
     display: flex;
     flex-direction: column;
@@ -342,7 +342,7 @@ body{
   width: 210px;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:376px){
   .flex-container{
     margin-left: -46px;
     display: flex;
@@ -508,7 +508,7 @@ body{
   cursor: pointer;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:376px){
   .modal-content{
     height: 36vh;
   }
@@ -522,7 +522,7 @@ body{
 
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:376px){
   .boxing {
     flex: 1 1 1 calc(50% - 20px);
   }
@@ -692,7 +692,7 @@ body{
 }
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:376px){
   .portfolio{
     margin-top: 35vh;
   }
@@ -909,7 +909,7 @@ footer h1{
   background-color: #76a4b8; 
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:376px){
   .back-to-top{
     margin-left: 0vh;
   }
