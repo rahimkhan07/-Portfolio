@@ -62,7 +62,7 @@ body{
     transition: all 0.3s;
   }
   
-  @media only screen and (max-width:376px) {
+  @media only screen and (max-width:476px) {
     .navbar{
       display: none;
     }
@@ -166,7 +166,7 @@ body{
     }
   }
 
-  @media only screen and (max-width:376px) {
+  @media only screen and (max-width:476px) {
       .heroRight{
         height: 37vh;
         width: 43vh;
@@ -258,7 +258,7 @@ body{
   width: 34vh;
 }
 
-@media only screen and (max-width:376px){
+@media only screen and (max-width:476px){
   .about-container{
     display: flex;
     flex-direction: column;
@@ -342,25 +342,15 @@ body{
   width: 210px;
 }
 
-@media only screen and (max-width:376px){
+@media only screen and (max-width:476px){
   .flex-container{
     margin-left: -46px;
+    /* display: flex; */
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
   }
 }
 
-
-/* @keyframes slideIn {
-  from {
-      transform: translateX(-100%);
-      opacity: 0;
-  }
-  to {
-      transform: translateX(0);
-      opacity: 1;
-  }
-} */
 
 /* Skills section end */
 
@@ -378,10 +368,10 @@ body{
   font-size: 2em;
   color: #0056b3;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
   text-align: center;
   margin-right: -75vh;
-  margin-top: -40vh;
+  margin-top: -10vh;
 }
 
 .service h2::after {
@@ -407,8 +397,6 @@ body{
 .containerr {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  /* align-items: center; */
   margin-top: 40vh;
   margin-right: -80vh;
 }
@@ -469,9 +457,7 @@ body{
   color: #000000;
 }
 
-/* .modal-content ul li{
-  text-decoration: none;
-} */
+
 
 @keyframes slideIn {
   from {transform: translateY(-300px);} 
@@ -508,10 +494,11 @@ body{
   cursor: pointer;
 }
 
-@media only screen and (max-width:376px){
+@media only screen and (max-width:476px){
   .modal-content{
     height: 36vh;
   }
+
 }
 
 
@@ -522,14 +509,9 @@ body{
 
 
 
-@media only screen and (max-width:376px){
+@media only screen and (max-width:476px){
   .boxing {
     flex: 1 1 1 calc(50% - 20px);
-  }
-
-  .spara {
-    text-align: center;
-    
   }
 
   .containerr{
@@ -543,11 +525,6 @@ body{
     margin-left: -67vh;
   }
 }
-/* @media (max-width: 500px) {
-  .boxing {
-    flex: 1 1 100%;
-  }
-} */
 
 
 /* Service section end */
@@ -692,7 +669,7 @@ body{
 }
 
 
-@media only screen and (max-width:376px){
+@media only screen and (max-width:476px){
   .portfolio{
     margin-top: 35vh;
   }
@@ -818,7 +795,7 @@ body{
   padding: 15px 20px;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 21vh;
   border-radius: 5px;
   font-weight: bold;
   opacity: 0.9;
@@ -826,7 +803,7 @@ body{
 
 .btns:hover {
   opacity: 1;
-  width: 24.5vh;
+  width: 21.5vh;
 }
 /* Contact section end */
 
@@ -891,9 +868,9 @@ footer h1{
 
 #myBtn {
   display: none; 
-  position: fixed; 
+  /* position: fixed;  */
   bottom: 20px; 
-  right: 200px; 
+  right: 20px; 
   z-index: 99; 
   border: none; 
   outline: none; 
@@ -903,15 +880,17 @@ footer h1{
   padding: 10px; 
   border-radius: 5px;
   font-size: 18px; 
+  margin-top: -8vh;
 }
 
 #myBtn:hover {
   background-color: #76a4b8; 
 }
 
-@media only screen and (max-width:376px){
+@media only screen and (max-width:476px){
   .back-to-top{
-    margin-left: 0vh;
+    margin-left: 48vh;
+    margin-top: -6vh;
   }
 }
 /* back to top btn end */
