@@ -218,8 +218,14 @@ body{
 .profile-image {
     width: 300px;
     height: 350px;
-    border-radius: 5%;
+    border-radius: 3%;
     object-fit: cover;
+    
+    transition: 1s ease;
+}
+
+.profile-image:hover{
+    transform: scale(1.1);
 }
 
 .about-text {
@@ -315,6 +321,7 @@ body{
 
 .flex-container{
   display: flex;
+  display: inline-flex;
   width: 750px;
   height: 106px;
   opacity: 1; 
@@ -323,10 +330,6 @@ body{
   margin-left: 10px;
 }
 
-.flex-container.visible {
-  opacity: 1; 
-  transform: translateX(0); 
-}
 
 .flex-container .skill{
   width: 200px;
@@ -335,7 +338,8 @@ body{
   text-align: center;
   line-height: 10px;
   font-size: 20px;
-  padding: -20vh;
+  padding: -10vh;
+  cursor: pointer;
 }
 
 .skill:hover{
@@ -344,10 +348,10 @@ body{
 
 @media only screen and (max-width:476px){
   .flex-container{
-    margin-left: -46px;
-    /* display: flex; */
+    margin-left: -56px;
     display: flex;
     flex-wrap: wrap;
+  
   }
 }
 
@@ -892,6 +896,10 @@ footer h1{
     margin-left: 48vh;
     margin-top: -6vh;
   }
+
+*{
+  margin-right: 0%;
+}
 }
 /* back to top btn end */
 
